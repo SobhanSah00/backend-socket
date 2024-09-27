@@ -3,12 +3,20 @@
   "version": "1.0.0",
   "description": "a application where the socket is used ",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js",
     "test": "learn"
   },
   "author": "sobhan sahoo",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.0"
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.6.4",
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0"
   }
 }
