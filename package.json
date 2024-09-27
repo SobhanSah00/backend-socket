@@ -1,0 +1,14 @@
+{
+  "name": "socket",
+  "version": "1.0.0",
+  "description": "a application where the socket is used ",
+  "main": "index.js",
+  "scripts": {
+    "test": "learn"
+  },
+  "author": "sobhan sahoo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
